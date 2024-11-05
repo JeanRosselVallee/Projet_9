@@ -1,0 +1,1 @@
+[{"classification":"jupyter-s3-conf","properties":{"s3.persistence.bucket":"jv-s3","s3.persistence.enabled":"true"}}]
