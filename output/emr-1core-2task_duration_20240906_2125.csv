@@ -1,0 +1,8 @@
+cluster,job_group_id,nb_images,nb_secs,duration
+emr-1core-2task,add_class_id,10812,63,         01m 03s
+emr-1core-2task,get_spark_df_sample,10812,1,         00m 01s
+emr-1core-2task,get_class_distribution,10812,12,         00m 12s
+emr-1core-2task,get_cnn_features,10812,0,         00m 00s
+emr-1core-2task,train_model,10812,472,         07m 52s
+emr-1core-2task,save_pca_features,10812,162,         02m 42s
+emr-1core-2task,get_metrics,10812,228,         03m 48s

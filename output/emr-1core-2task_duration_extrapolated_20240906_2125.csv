@@ -1,0 +1,7 @@
+nb_images,estimated_secs,estimated_nb_secs,cluster
+10812,471,         07m 51s,emr-1core-2task
+20000,672,         11m 12s,emr-1core-2task
+40000,1109,         18m 29s,emr-1core-2task
+60000,1545,         25m 45s,emr-1core-2task
+80000,1982,         33m 02s,emr-1core-2task
+100000,2418,         40m 18s,emr-1core-2task
