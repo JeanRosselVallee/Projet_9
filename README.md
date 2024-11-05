@@ -1,15 +1,14 @@
 # Réalisez un traitement dans un environnement Big Data sur le Cloud
-### But :
-- Le but principal du traitement est la réduction de dimensions.
-  - on a appliqué l'apprentissage par transfert au modèle pré-entraîné neuronal MobileNetV2
+Le but principal du traitement est la réduction de dimensions. On a appliqué l'apprentissage par transfert au modèle pré-entraîné neuronal MobileNetV2
 
-- Le jeu en entrée subit 2 réductions :
+### Jeu de données
+- 10 mille images de fruits au format JPEG, regroupées dans 10 familles ou classes de fruits
+- Le jeu subit 2 réductions :
   - de 150 mille attributs on passe à un millier grâce à l'application d'un modèle neuronal
   - d'un millier on passe à une dizaine avec la réduction par PCA (analyse de composantes principales)
 
-<img src="https://drive.google.com/file/d/1Ytgn1BWvweeD6pB6Ncdah64DLpJtIT5m/view?usp=drive_link" >
-
 ### Architecture
+<img src="https://drive.google.com/uc?id=1Ytgn1BWvweeD6pB6Ncdah64DLpJtIT5m" style="width: 60%;">
 - l'utilisation du cluster chez Amazon facilite et simplifie le traitement et le transfert de données
   - Amazon EMR prend en charge une grande partie de la configuration du cluster
   - l'installation, la gestion et le traitement en arrière plan de Spark et de Hadoop se font de manière transparente pour le développeur
@@ -42,10 +41,6 @@ Il contient :
 - réception par mail de notifications SNS 
   - état change        -> “prêt”
   - fichier supprimé -> “fini”
-
-### Jeu de données
-- 10 mille images de fruits au format JPEG 
-- regroupées dans 10 familles ou classes de fruits
 
 ### Outils : 
 - AWS EMR, EC2 & S3
